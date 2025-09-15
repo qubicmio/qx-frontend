@@ -27,6 +27,12 @@ jobs:
       - name: 📦 Install dependencies
         run: pnpm install --frozen-lockfile
 
+      - name: 🔖 Run Semantic Release
+        run: pnpm run release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        if: github.ref == 'refs/heads/main' || github.ref == 'refs/heads/staging'
+
       - name: 🏗️ Build app
         env:
           VITE_QX_API_URL: ${{ secrets.QX_API_URL }}
