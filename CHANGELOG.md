@@ -1,3 +1,20 @@
+# [1.4.0](https://github.com/qubic/qx-frontend/compare/v1.3.0...v1.4.0) (2025-09-15)
+
+
+### Bug Fixes
+
+* add run semantic release ([53ad41f](https://github.com/qubic/qx-frontend/commit/53ad41fb28fe4f50ecebe5fbf436848a10bb3f4e))
+* deploy.yml prettier updates ([81e3bdf](https://github.com/qubic/qx-frontend/commit/81e3bdf0d202b8f1db0a58146d7bfb230d1afff0))
+* deploy.yml updates ([d76ea3b](https://github.com/qubic/qx-frontend/commit/d76ea3b0348e981c2ab74b737018cffbd6d8a486))
+* increase the width to display assets and sc ([f08f0b0](https://github.com/qubic/qx-frontend/commit/f08f0b05dbdab15c786d3b61c85a3852763293b0))
+* reduced the width for the assets cards in medium and large screens ([2cecb84](https://github.com/qubic/qx-frontend/commit/2cecb8403e7034e59d07a1112b0c2528aa3cc46e))
+
+
+### Features
+
+* product no maintained banner added ([b7585f7](https://github.com/qubic/qx-frontend/commit/b7585f7156e2e91fea11ffff995e13c794d0353b))
+* show all assets ([881f117](https://github.com/qubic/qx-frontend/commit/881f117e8f0b929e0cc3724cfe18934933987b99))
+
 # [1.4.0-rc.1](https://github.com/qubic/qx-frontend/compare/v1.3.0...v1.4.0-rc.1) (2025-09-15)
 
 
