@@ -19,7 +19,7 @@ export default function AssetsSection({ title, assets, isLoading, skeletonQty = 
   return (
     <section className="grid place-items-center gap-24">
       <h2 className="text-xl font-semibold">{title}</h2>
-      <ul className="mx-auto flex w-full max-w-full flex-wrap justify-center gap-24 md:max-w-sm">
+      <ul className="mx-auto flex w-full max-w-full flex-wrap justify-center gap-24 md:max-w-640">
         {isLoading ? (
           <AssetsSkeleton title={title} qty={skeletonQty} />
         ) : (
