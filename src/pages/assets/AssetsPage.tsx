@@ -18,8 +18,11 @@ function AssetsPage() {
     () =>
       assets.reduce(
         (acc: { smartContractShares: Asset[]; tokens: Asset[] }, asset) => {
-          const key = asset.issuer === ASSETS_ISSUER_ADDRESS ? 'smartContractShares' : 'tokens'
-          acc[key].push(asset)
+          if (asset.issuer === ASSETS_ISSUER_ADDRESS) {
+            acc.smartContractShares.push(asset)
+          } else if (asset.verified) {
+            acc.tokens.push(asset)
+          } // else ignore
           return acc
         },
         { smartContractShares: [], tokens: [] }

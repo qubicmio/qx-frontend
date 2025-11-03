@@ -1,6 +1,7 @@
 export type Asset = {
   issuer: string
   name: string
+  verified: boolean
 }
 
 export type AssetOrder = {
